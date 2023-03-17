@@ -1,0 +1,70 @@
+2023-03-10 09:41:16.586 - Main : START OF countBits(170)
+2023-03-10 09:41:16.588 - Main : numBits BEFORE : 0
+2023-03-10 09:41:16.590 - Main : numBits AFTER  : 0
+2023-03-10 09:41:16.592 - Main : x value BEFORE :   10101010
+2023-03-10 09:41:16.594 - Main : x value AFTER  :    1010101
+2023-03-10 09:41:16.596 - Main : numBits BEFORE : 0
+2023-03-10 09:41:16.599 - Main : numBits AFTER  : 1
+2023-03-10 09:41:16.601 - Main : x value BEFORE :    1010101
+2023-03-10 09:41:16.604 - Main : x value AFTER  :     101010
+2023-03-10 09:41:16.607 - Main : numBits BEFORE : 1
+2023-03-10 09:41:16.609 - Main : numBits AFTER  : 1
+2023-03-10 09:41:16.612 - Main : x value BEFORE :     101010
+2023-03-10 09:41:16.614 - Main : x value AFTER  :      10101
+2023-03-10 09:41:16.616 - Main : numBits BEFORE : 1
+2023-03-10 09:41:16.618 - Main : numBits AFTER  : 2
+2023-03-10 09:41:16.620 - Main : x value BEFORE :      10101
+2023-03-10 09:41:16.623 - Main : x value AFTER  :       1010
+2023-03-10 09:41:16.625 - Main : numBits BEFORE : 2
+2023-03-10 09:41:16.627 - Main : numBits AFTER  : 2
+2023-03-10 09:41:16.631 - Main : x value BEFORE :       1010
+2023-03-10 09:41:16.633 - Main : x value AFTER  :        101
+2023-03-10 09:41:16.635 - Main : numBits BEFORE : 2
+2023-03-10 09:41:16.637 - Main : numBits AFTER  : 3
+2023-03-10 09:41:16.639 - Main : x value BEFORE :        101
+2023-03-10 09:41:16.641 - Main : x value AFTER  :         10
+2023-03-10 09:41:16.643 - Main : numBits BEFORE : 3
+2023-03-10 09:41:16.646 - Main : numBits AFTER  : 3
+2023-03-10 09:41:16.649 - Main : x value BEFORE :         10
+2023-03-10 09:41:16.651 - Main : x value AFTER  :          1
+2023-03-10 09:41:16.653 - Main : numBits BEFORE : 3
+2023-03-10 09:41:16.656 - Main : numBits AFTER  : 4
+2023-03-10 09:41:16.658 - Main : x value BEFORE :          1
+2023-03-10 09:41:16.660 - Main : x value AFTER  :          0
+2023-03-10 09:41:16.663 - Main : End of while : numBits IS : 4
+2023-03-10 09:41:16.665 - Main : Method Result : 4 .vs. 4
+2023-03-10 09:47:48.901 - Main : START OF countBits(167)
+2023-03-10 09:47:48.904 - Main : numBits BEFORE : 0
+2023-03-10 09:47:48.906 - Main : numBits AFTER  : 1
+2023-03-10 09:47:48.909 - Main : x value BEFORE :   10100111
+2023-03-10 09:47:48.911 - Main : x value AFTER  :    1010011
+2023-03-10 09:47:48.914 - Main : numBits BEFORE : 1
+2023-03-10 09:47:48.916 - Main : numBits AFTER  : 2
+2023-03-10 09:47:48.917 - Main : x value BEFORE :    1010011
+2023-03-10 09:47:48.919 - Main : x value AFTER  :     101001
+2023-03-10 09:47:48.920 - Main : numBits BEFORE : 2
+2023-03-10 09:47:48.922 - Main : numBits AFTER  : 3
+2023-03-10 09:47:48.925 - Main : x value BEFORE :     101001
+2023-03-10 09:47:48.926 - Main : x value AFTER  :      10100
+2023-03-10 09:47:48.929 - Main : numBits BEFORE : 3
+2023-03-10 09:47:48.931 - Main : numBits AFTER  : 3
+2023-03-10 09:47:48.934 - Main : x value BEFORE :      10100
+2023-03-10 09:47:48.935 - Main : x value AFTER  :       1010
+2023-03-10 09:47:48.937 - Main : numBits BEFORE : 3
+2023-03-10 09:47:48.939 - Main : numBits AFTER  : 3
+2023-03-10 09:47:48.941 - Main : x value BEFORE :       1010
+2023-03-10 09:47:48.943 - Main : x value AFTER  :        101
+2023-03-10 09:47:48.946 - Main : numBits BEFORE : 3
+2023-03-10 09:47:48.948 - Main : numBits AFTER  : 4
+2023-03-10 09:47:48.950 - Main : x value BEFORE :        101
+2023-03-10 09:47:48.952 - Main : x value AFTER  :         10
+2023-03-10 09:47:48.954 - Main : numBits BEFORE : 4
+2023-03-10 09:47:48.955 - Main : numBits AFTER  : 4
+2023-03-10 09:47:48.958 - Main : x value BEFORE :         10
+2023-03-10 09:47:48.960 - Main : x value AFTER  :          1
+2023-03-10 09:47:48.963 - Main : numBits BEFORE : 4
+2023-03-10 09:47:48.965 - Main : numBits AFTER  : 5
+2023-03-10 09:47:48.967 - Main : x value BEFORE :          1
+2023-03-10 09:47:48.969 - Main : x value AFTER  :          0
+2023-03-10 09:47:48.971 - Main : End of while : numBits IS : 5
+2023-03-10 09:47:48.976 - Main : Method Result : 5 .vs. 4

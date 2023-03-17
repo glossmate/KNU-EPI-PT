@@ -1,0 +1,114 @@
+2023-03-16 23:31:01.615 - Main : minPriceSoFar :   12, maxTotalProfit :    0, firstBuySellProfits: [0.0]
+2023-03-16 23:31:01.618 - Main : minPriceSoFar :   11, maxTotalProfit :    0, firstBuySellProfits: [0.0, 0.0]
+2023-03-16 23:31:01.619 - Main : minPriceSoFar :   11, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0]
+2023-03-16 23:31:01.620 - Main : minPriceSoFar :    9, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0]
+2023-03-16 23:31:01.622 - Main : minPriceSoFar :    9, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0]
+2023-03-16 23:31:01.624 - Main : minPriceSoFar :    8, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0]
+2023-03-16 23:31:01.626 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0]
+2023-03-16 23:31:01.628 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0]
+2023-03-16 23:31:01.629 - Main : minPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0, 7.0]
+2023-03-16 23:31:01.632 - Main : The Answer is : 10.0
+2023-03-16 23:34:05.421 - Main : Forward phase
+2023-03-16 23:34:05.425 - Main : minPriceSoFar :   12, maxTotalProfit :    0, firstBuySellProfits: [0.0]
+2023-03-16 23:34:05.427 - Main : minPriceSoFar :   11, maxTotalProfit :    0, firstBuySellProfits: [0.0, 0.0]
+2023-03-16 23:34:05.428 - Main : minPriceSoFar :   11, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0]
+2023-03-16 23:34:05.430 - Main : minPriceSoFar :    9, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0]
+2023-03-16 23:34:05.432 - Main : minPriceSoFar :    9, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0]
+2023-03-16 23:34:05.433 - Main : minPriceSoFar :    8, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0]
+2023-03-16 23:34:05.436 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0]
+2023-03-16 23:34:05.438 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0]
+2023-03-16 23:34:05.441 - Main : minPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0, 7.0]
+2023-03-16 23:34:05.442 - Main : Backward phase
+2023-03-16 23:34:05.444 - Main : maxPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits(7):    6
+2023-03-16 23:34:05.447 - Main : maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(6):    6
+2023-03-16 23:34:05.449 - Main : maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(5):    3
+2023-03-16 23:34:05.451 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(4):    3
+2023-03-16 23:34:05.453 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(3):    2
+2023-03-16 23:34:05.456 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(2):    2
+2023-03-16 23:34:05.458 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(1):    0
+2023-03-16 23:34:05.460 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(0):    0
+2023-03-16 23:34:05.464 - Main : The Answer is : 10.0
+2023-03-16 23:36:03.590 - Main : Input List : [12.0, 11.0, 13.0, 9.0, 12.0, 8.0, 14.0, 13.0, 15.0]
+2023-03-16 23:36:03.593 - Main : Forward phase
+2023-03-16 23:36:03.595 - Main : minPriceSoFar :   12, maxTotalProfit :    0, firstBuySellProfits: [0.0]
+2023-03-16 23:36:03.597 - Main : minPriceSoFar :   11, maxTotalProfit :    0, firstBuySellProfits: [0.0, 0.0]
+2023-03-16 23:36:03.599 - Main : minPriceSoFar :   11, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0]
+2023-03-16 23:36:03.600 - Main : minPriceSoFar :    9, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0]
+2023-03-16 23:36:03.602 - Main : minPriceSoFar :    9, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0]
+2023-03-16 23:36:03.604 - Main : minPriceSoFar :    8, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0]
+2023-03-16 23:36:03.605 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0]
+2023-03-16 23:36:03.607 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0]
+2023-03-16 23:36:03.608 - Main : minPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0, 7.0]
+2023-03-16 23:36:03.610 - Main : Backward phase
+2023-03-16 23:36:03.611 - Main : maxPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits(7):    6
+2023-03-16 23:36:03.613 - Main : maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(6):    6
+2023-03-16 23:36:03.614 - Main : maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(5):    3
+2023-03-16 23:36:03.616 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(4):    3
+2023-03-16 23:36:03.619 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(3):    2
+2023-03-16 23:36:03.621 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(2):    2
+2023-03-16 23:36:03.623 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(1):    0
+2023-03-16 23:36:03.626 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(0):    0
+2023-03-16 23:36:03.630 - Main : The Answer is : 10.0
+2023-03-16 23:51:10.092 - Main : Input List : [12.0, 11.0, 13.0, 9.0, 12.0, 8.0, 14.0, 13.0, 15.0]
+2023-03-16 23:51:10.095 - Main : Forward phase
+2023-03-16 23:51:10.098 - Main : minPriceSoFar :   12, maxTotalProfit :    0, firstBuySellProfits: [0.0]
+2023-03-16 23:51:10.100 - Main : minPriceSoFar :   11, maxTotalProfit :    0, firstBuySellProfits: [0.0, 0.0]
+2023-03-16 23:51:10.102 - Main : minPriceSoFar :   11, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0]
+2023-03-16 23:51:10.104 - Main : minPriceSoFar :    9, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0]
+2023-03-16 23:51:10.106 - Main : minPriceSoFar :    9, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0]
+2023-03-16 23:51:10.109 - Main : minPriceSoFar :    8, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0]
+2023-03-16 23:51:10.111 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0]
+2023-03-16 23:51:10.113 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0]
+2023-03-16 23:51:10.115 - Main : minPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0, 7.0]
+2023-03-16 23:51:10.116 - Main : Backward phase
+2023-03-16 23:51:10.118 - Main : B:    6, maxPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits(7):    6
+2023-03-16 23:51:10.120 - Main : B:    8, maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(6):    6
+2023-03-16 23:51:10.122 - Main : B:    4, maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(5):    3
+2023-03-16 23:51:10.124 - Main : B:   10, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(4):    3
+2023-03-16 23:51:10.126 - Main : B:    5, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(3):    2
+2023-03-16 23:51:10.128 - Main : B:    8, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(2):    2
+2023-03-16 23:51:10.131 - Main : B:    2, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(1):    0
+2023-03-16 23:51:10.133 - Main : B:    4, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(0):    0
+2023-03-16 23:51:10.137 - Main : The Answer is : 10.0
+2023-03-16 23:51:54.845 - Main : Input List : [12.0, 11.0, 13.0, 9.0, 12.0, 8.0, 14.0, 13.0, 15.0]
+2023-03-16 23:51:54.848 - Main : Forward phase
+2023-03-16 23:51:54.851 - Main : minPriceSoFar :   12, maxTotalProfit :    0, firstBuySellProfits: [0.0]
+2023-03-16 23:51:54.853 - Main : minPriceSoFar :   11, maxTotalProfit :    0, firstBuySellProfits: [0.0, 0.0]
+2023-03-16 23:51:54.855 - Main : minPriceSoFar :   11, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0]
+2023-03-16 23:51:54.858 - Main : minPriceSoFar :    9, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0]
+2023-03-16 23:51:54.860 - Main : minPriceSoFar :    9, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0]
+2023-03-16 23:51:54.862 - Main : minPriceSoFar :    8, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0]
+2023-03-16 23:51:54.863 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0]
+2023-03-16 23:51:54.865 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0]
+2023-03-16 23:51:54.867 - Main : minPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0, 7.0]
+2023-03-16 23:51:54.868 - Main : Backward phase
+2023-03-16 23:51:54.871 - Main : maxPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits(7):    6
+2023-03-16 23:51:54.873 - Main : maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(6):    6
+2023-03-16 23:51:54.875 - Main : maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(5):    3
+2023-03-16 23:51:54.878 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(4):    3
+2023-03-16 23:51:54.879 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(3):    2
+2023-03-16 23:51:54.882 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(2):    2
+2023-03-16 23:51:54.884 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(1):    0
+2023-03-16 23:51:54.886 - Main : maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(0):    0
+2023-03-16 23:51:54.890 - Main : The Answer is : 10.0
+2023-03-16 23:54:57.451 - Main : Input List : [12.0, 11.0, 13.0, 9.0, 12.0, 8.0, 14.0, 13.0, 15.0]
+2023-03-16 23:54:57.454 - Main : Forward phase
+2023-03-16 23:54:57.457 - Main : minPriceSoFar :   12, maxTotalProfit :    0, firstBuySellProfits: [0.0]
+2023-03-16 23:54:57.459 - Main : minPriceSoFar :   11, maxTotalProfit :    0, firstBuySellProfits: [0.0, 0.0]
+2023-03-16 23:54:57.462 - Main : minPriceSoFar :   11, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0]
+2023-03-16 23:54:57.464 - Main : minPriceSoFar :    9, maxTotalProfit :    2, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0]
+2023-03-16 23:54:57.467 - Main : minPriceSoFar :    9, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0]
+2023-03-16 23:54:57.469 - Main : minPriceSoFar :    8, maxTotalProfit :    3, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0]
+2023-03-16 23:54:57.472 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0]
+2023-03-16 23:54:57.474 - Main : minPriceSoFar :    8, maxTotalProfit :    6, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0]
+2023-03-16 23:54:57.476 - Main : minPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits: [0.0, 0.0, 2.0, 2.0, 3.0, 3.0, 6.0, 6.0, 7.0]
+2023-03-16 23:54:57.479 - Main : Backward phase
+2023-03-16 23:54:57.481 - Main : B:    0, maxPriceSoFar :    8, maxTotalProfit :    7, firstBuySellProfits(7):    6
+2023-03-16 23:54:57.484 - Main : B:    2, maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(6):    6
+2023-03-16 23:54:57.486 - Main : B:    1, maxPriceSoFar :    8, maxTotalProfit :    8, firstBuySellProfits(5):    3
+2023-03-16 23:54:57.488 - Main : B:    7, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(4):    3
+2023-03-16 23:54:57.490 - Main : B:    3, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(3):    2
+2023-03-16 23:54:57.492 - Main : B:    6, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(2):    2
+2023-03-16 23:54:57.494 - Main : B:    2, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(1):    0
+2023-03-16 23:54:57.496 - Main : B:    4, maxPriceSoFar :    8, maxTotalProfit :   10, firstBuySellProfits(0):    0
+2023-03-16 23:54:57.500 - Main : The Answer is : 10.0

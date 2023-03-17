@@ -22,6 +22,12 @@ public class Main {
         int numBits = 0; // 결과값 초기화
         while (x != 0) { // 모든 비트가 0 이므로 더이상 numBits 를 증가시킬 필요 없음
             numBits += (x & 1) ; // x의 최하위 비트가 1이면 numBits를 1 증가
+/*
+            if((x & 1) == 1) {
+//                numBits = numBits + 1;
+                numBits += 1;
+            }
+//*/
             x >>>= 1; // x 를 오른쪽으로 1 bit 시프트, 최상위 비트는 0으로 채움
                       // x >>= 1 : 최상위 비트는 그대로 두고 나머지 비트만 시프트
         }
@@ -40,7 +46,7 @@ public class Main {
     public static void main(String[] args) {
 //        int RESULT0 = countBits(922337236854775807L);
 //        int RESULT1 = Long.bitCount(922337236854775807L);
-        int RESULT0 = countBits_DEBUG(0xAA);
+        int RESULT0 = countBits_DEBUG(0xA7);
         int RESULT1 = Long.bitCount(0xAA);
         UTIL.LOG(3, TAG,String.format("Method Result : %d .vs. %d", RESULT0, RESULT1));
 
