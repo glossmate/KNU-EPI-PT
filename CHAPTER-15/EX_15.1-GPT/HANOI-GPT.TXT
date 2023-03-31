@@ -1,0 +1,161 @@
+하노이 타워 문제에서, 각각의 이동이 PI -> P2, P2 ->P3, P3 -> PI 만 가능한 경우로 제약 조건을 만족하는 문제해결 자바 프로그램을 알려주세요.
+하노이 타워 문제에서, 각각의 이동이 PI -> P2, P2 ->P3, P3 -> PI 만 가능한 경우로 제약 조건을 만족하는 문제해결 자바 프로그램은 다음과 같이 작성할 수 있습니다.
+
+import java.util.Scanner;
+
+public class HanoiTower {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of disks: ");
+        int n = sc.nextInt();
+
+        // 하노이 타워 문제를 해결하는 함수 호출
+        hanoiTower(n, "PI", "P2", "P3");
+    }
+
+    // 하노이 타워 문제를 해결하는 함수
+    public static void hanoiTower(int n, String from, String to, String aux) {
+        if (n == 1) {
+            System.out.println("Move disk 1 from " + from + " to " + to);
+            return;
+        }
+        hanoiTower(n - 1, from, aux, to);
+        System.out.println("Move disk " + n + " from " + from + " to " + to);
+        hanoiTower(n - 1, aux, to, from);
+    }
+}
+
+위 프로그램에서, hanoiTower 함수는 재귀적으로 호출되며, 매개변수로 현재 원반의 개수 n, 출발지 기둥 from, 목적지 기둥 to, 보조 기둥 aux를 받습니다.
+
+기본적인 로직은 하노이 타워 문제의 로직과 동일합니다. 하지만 이동 방향이 제한되어 있으므로, 함수 내에서는 from과 to의 위치를 고려하여 적절한 기둥으로 이동시켜주어야 합니다.
+
+위 프로그램을 실행하면, 입력한 원반의 개수에 따라 하노이 타워 문제가 해결됩니다.
+
+
+하노이 타워 문제에서, 각각의 이동이 P1 -> P2 이동을 금지 하는 제약 조건을 만족하는 문제해결 자바 프로그램을 알려주세요.
+하노이 타워 문제에서, 각각의 이동이 P1 -> P2 이동을 금지하는 제약 조건을 만족하는 문제해결 자바 프로그램은 다음과 같이 작성할 수 있습니다.
+
+import java.util.Scanner;
+
+public class HanoiTower {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of disks: ");
+        int n = sc.nextInt();
+
+        // 하노이 타워 문제를 해결하는 함수 호출
+        hanoiTower(n, "P1", "P3", "P2");
+    }
+
+    // 하노이 타워 문제를 해결하는 함수
+    public static void hanoiTower(int n, String from, String to, String aux) {
+        if (n == 1) {
+            System.out.println("Move disk 1 from " + from + " to " + to);
+            return;
+        }
+        hanoiTower(n - 1, from, aux, to);
+        System.out.println("Move disk " + n + " from " + from + " to " + to);
+        hanoiTower(n - 1, aux, to, from);
+    }
+}
+위 프로그램에서, hanoiTower 함수는 재귀적으로 호출되며, 매개변수로 현재 원반의 개수 n, 출발지 기둥 from, 목적지 기둥 to, 보조 기둥 aux를 받습니다.
+
+제약 조건을 만족시키기 위해, to와 aux의 역할이 바뀌었습니다. 이는 to를 사용할 수 없으므로, to와 aux를 교환하여 문제를 해결하는 방법입니다.
+
+위 프로그램을 실행하면, 입력한 원반의 개수에 따라 하노이 타워 문제가 해결됩니다.
+
+
+
+
+하노이 타워 문제에서 기둥이 4개가 존재한다고 가정할때, 문제를 해결하는 자바 프로그램을 보여주세요.
+하노이 타워 문제에서 기둥이 4개가 존재하는 경우, 문제를 해결하는 자바 프로그램은 다음과 같이 작성할 수 있습니다.
+
+import java.util.Scanner;
+
+public class HanoiTower {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number of disks: ");
+        int n = sc.nextInt();
+
+        // 하노이 타워 문제를 해결하는 함수 호출
+        hanoiTower(n, "P1", "P4", "P2", "P3");
+    }
+
+    // 하노이 타워 문제를 해결하는 함수
+    public static void hanoiTower(int n, String from, String to, String aux1, String aux2) {
+        if (n == 1) {
+            System.out.println("Move disk 1 from " + from + " to " + to);
+            return;
+        }
+        hanoiTower(n - 2, from, aux1, aux2, to);
+        System.out.println("Move disk " + (n - 1) + " from " + from + " to " + aux2);
+        System.out.println("Move disk " + n + " from " + from + " to " + to);
+        System.out.println("Move disk " + (n - 1) + " from " + aux2 + " to " + to);
+        hanoiTower(n - 2, aux1, to, from, aux2);
+    }
+}
+위 프로그램에서, hanoiTower 함수는 재귀적으로 호출되며, 매개변수로 현재 원반의 개수 n, 출발지 기둥 from, 목적지 기둥 to, 보조 기둥1 aux1, 보조 기둥2 aux2를 받습니다.
+
+위 문제에서는 기둥이 4개이므로, hanoiTower 함수가 호출될 때 보조 기둥을 2개 사용하도록 변경하였습니다.
+
+위 프로그램을 실행하면, 입력한 원반의 개수에 따라 하노이 타워 문제가 해결됩니다.
+
+
+
+
+하노이 타워 문제에서, 크기가 각각 다른 n개의 디스크가 2n개 있습니다. 더 작은 디스크에 더 큰 디스크를 놓을 수는 없지만 동일한 크기의 디스크를 다른 디스크 위에 놓을 수 있습니다. 2n 디스크를 PI에서 P2로 전송하기 위한 자바 프로그램을 보여주세요.
+하노이 타워 문제에서, 크기가 각각 다른 n개의 디스크가 2n개가 있을 때, 더 작은 디스크에 더 큰 디스크를 놓을 수 없지만 동일한 크기의 디스크를 다른 디스크 위에 놓을 수 있다면, 2n 디스크를 PI에서 P2로 전송하기 위한 자바 프로그램은 다음과 같이 작성할 수 있습니다.
+
+import java.util.Stack;
+
+public class HanoiTower {
+
+    static Stack<Integer>[] tower = new Stack[3];
+
+    public static void main(String[] args) {
+        int n = 3;
+        int totalDisks = 2 * n;
+
+        // 3개의 스택 생성
+        for (int i = 0; i < 3; i++) {
+            tower[i] = new Stack<Integer>();
+        }
+
+        // 첫번째 기둥에 디스크를 넣음
+        for (int i = totalDisks; i > 0; i--) {
+            tower[0].push(i);
+        }
+
+        // 하노이 타워 문제를 해결하는 함수 호출
+        hanoiTower(totalDisks, 0, 1, 2);
+    }
+
+    // 하노이 타워 문제를 해결하는 함수
+    public static void hanoiTower(int n, int source, int destination, int aux) {
+        if (n == 0) {
+            return;
+        }
+
+        // 출발지에서 보조 기둥으로 n-1개의 디스크 이동
+        hanoiTower(n - 1, source, aux, destination);
+
+        // 출발지에서 목적지로 가장 큰 디스크 이동
+        int disk = tower[source].pop();
+        tower[destination].push(disk);
+        System.out.println("Move disk " + disk + " from " + (source+1) + " to " + (destination+1));
+
+        // 보조 기둥에서 목적지로 n-1개의 디스크 이동
+        hanoiTower(n - 1, aux, destination, source);
+    }
+}
+위 프로그램에서, 크기가 다른 n개의 디스크가 2n개이므로, 전체 디스크의 수는 totalDisks 변수에 저장됩니다. 3개의 Stack 객체를 생성하여 각각의 기둥을 표현하며, 첫번째 기둥에 totalDisks 개의 디스크를 넣습니다.
+
+hanoiTower 함수는 출발지 기둥 source, 목적지 기둥 destination, 보조 기둥 aux를 매개변수로 받으며, 재귀적으로 호출됩니다.
+
+이 함수는 먼저 출발지에서 보조 기둥으로 n-1개의 디스크를 이동시킵니다. 그리고 출발지에서 목적지로 가장 큰 디스크를 이동시킵니다. 마지막
+
+
